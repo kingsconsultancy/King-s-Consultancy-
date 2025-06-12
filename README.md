@@ -1,4 +1,4 @@
-# Emnbank About Page
+# Embank About Page
 
 A modern, responsive about page with interactive features.
 
@@ -35,18 +35,9 @@ about.js       # Interactive features and animations
 - Event delegation
 - Smooth animations
 
-## Browser Support
-- Latest Chrome, Firefox, Safari, Edge
-- Partial IE11 support
-
 ## Performance
 - Lazy loading images
 - Optimized animations
 - Minified assets
 
-## Contributing
-1. Fork repository
-2. Create branch
-3. Commit changes
-4. Push branch
-5. Create PR
+
