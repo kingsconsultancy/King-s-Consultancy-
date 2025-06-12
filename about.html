@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finbank - Meet the team behind this magic</title>
+    <title>Embank - Meet the team behind this magic</title>
     <link rel="stylesheet" href="about.css">
+    <script src="about.js" defer></script>
 </head>
 <body> 
 
@@ -15,7 +16,7 @@
         <div class="container">
             <!-- Company Logo/Brand -->
             <div class="logo">
-                Finbank
+                Emnbank
             </div>
             <!-- Main Navigation Menu -->
             <nav class="nav">
@@ -24,6 +25,11 @@
                 <a href="#careers">Careers</a>
                 <a href="#contact">Contact</a>
             </nav>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
@@ -35,7 +41,7 @@
                 <div class="hero-text">
                     <h1>Meet the team behind this magic</h1>
                     <p>Our talented team of financial experts is dedicated to helping you achieve success.</p>
-                    <button class="cta-button">Try for free</button>
+                    <button class="cta-button" id="try-free">Try for free</button>
                 </div>
                 <!-- Right side: Hero image -->
                 <div class="hero-image">
@@ -86,7 +92,7 @@
             <p>Meet the talented people behind our success</p>
             
             <!-- Grid layout for team member cards -->
-            <div class="team-grid">
+            <div class="team-grid" id="team-members">
                 <!-- Individual team member cards -->
                 <div class="team-member">
                     <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&crop=face" alt="Jane Smith">
@@ -127,17 +133,7 @@
                     <img src="https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=200&h=200&fit=crop&crop=face" alt="Elena Beck">
                     <h4>Elena Beck</h4>
                     <p>Project Manager</p>
-                </div>
-                <div class="team-member">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&crop=face" alt="Joseph Chen">
-                    <h4>Joseph Chen</h4>
-                    <p>Public Manager</p>
-                </div>
-                <div class="team-member">
-                    <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=200&h=200&fit=crop&crop=face" alt="Samuel Tan">
-                    <h4>Samuel Tan</h4>
-                    <p>Intern</p>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -232,7 +228,7 @@
             <div class="footer-content">
                 <!-- Brand section -->
                 <div class="footer-brand">
-                    <h3>Finbank</h3>
+                    <!-- <h3>Embank</h3> -->
                 </div>
                 <!-- Footer links organized in columns -->
                 <div class="footer-links">
@@ -267,7 +263,7 @@
             </div>
             <!-- Footer bottom with copyright -->
             <div class="footer-bottom">
-                <p>&copy; 2024 Finbank</p>
+                <p>&copy; 2024 Embank</p>
             </div>
         </div>
     </footer>
