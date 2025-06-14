@@ -1,0 +1,145 @@
+body {
+      padding-top: 70px; /* Prevent content hiding behind fixed navbar */
+     
+    }
+        
+/* Custom styles */
+.navbar {
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+            width: 100%;
+            position: fixed;
+        }
+ .map{
+            min-height: 400px;
+    }
+
+.leaflet-control-container{
+             z-index: 400 !important;
+    }
+        
+.navbar-brand img {
+            height: 20px; /* Adjust logo height as needed */
+        }
+.nav-link {
+            font-weight: 500;
+            color: #333 !important;
+            margin: 0 10px;
+        }
+        
+.nav-link:hover {
+            color: #666 !important;
+        }
+        
+        /* Center the navigation */
+.navbar-collapse {
+            justify-content: center;
+        }
+        
+        /* Push logo to the left */
+.navbar-brand {
+            margin-right: 0;
+            position: absolute;
+            left: 30px;
+        }
+        
+/* Adjust for mobile */
+        @media (max-width: 991.98px) {
+            .navbar-brand {
+                position: static;
+            }
+            .navbar-collapse {
+                justify-content: flex-start;
+            }
+        }
+
+
+
+    .contact-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .contact-section1{
+        margin-top: 70px;
+    }
+
+    .contact-card {
+      background: #fff;
+      border-radius: 12px;
+      /*
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      */
+    }
+    .contact-card .map {
+      min-height: 400px;
+    }
+    .btn-darkblue {
+      background-color: #0a0a23;
+      color: white;
+      border: none;
+      padding: 0.5rem 1.5rem;
+    }
+    .btn-darkblue:hover {
+      background-color: #2a2a6b;
+    }
+    .btn{
+      border-radius: 50px;
+    }
+    .form-label {
+      font-weight: 500;
+    }
+    .row.no-gutters {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .row.no-gutters > [class*='col-'] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .contact-container {
+      text-align: center;
+
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    .p {
+      font-size: 1.2rem;
+      color: #555;
+      transition: opacity 0.5s ease;
+    }
+
+    .contact-section2 {
+      margin-top: 40px;
+      background-color: #f9f9f9;
+      padding: 40px 20px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+      /*opacity: 0.5;*/
+    }
+    .contact-item h5 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .contact-item a {
+      text-decoration: underline;
+      color: #000;
+    }
+
+    
+   .map-raduis-height{
+      height: 400px;
+      margin-top: 50px;
+    }
+    #map{
+      border-radius: 12px;
+      overflow: hidden;
+    }
